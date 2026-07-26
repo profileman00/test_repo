@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "severity": {
+      "type": "string",
+      "enum": [
+        "info",
+        "warning",
+        "critical"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "recommended_action": {
+      "type": "string"
+    },
+    "key_points": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "severity",
+    "summary",
+    "recommended_action",
+    "key_points"
+  ],
+  "additionalProperties": false
+}
+
