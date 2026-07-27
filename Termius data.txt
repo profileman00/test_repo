@@ -1,4 +1,3 @@
--------------------------- SSH Hosts -------------------
 ============== SSH Congo
 10.xx.44.xx
 Congo Edge
@@ -19,20 +18,15 @@ CM Edge
 Ghana Edge
 
 
-
--------------------------- Snippets -------------------
+===========================================================
 BN HDFS 
 hadoop fs -ls /userFeeds/
-
-GH user
-sudo su - user
-
 
 Cameroon user Me
 sudo su - user;
 
 CO HDFS
-hadoop fs -ls hdfs://codex/STG_Feeds/
+hadoop fs -ls hdfs://codex/STG_Feeds/standalone another version
 
 CM HDFS
 hadoop fs -ls hdfs://claude/Feeds/
@@ -40,11 +34,6 @@ hadoop fs -ls hdfs://claude/Feeds/
 Landing Zone
 ll -h /sources/production/ftpin/
 
-Benin user
-sudo su - user
-
-
-Benin sudo su -
 
 
 
