@@ -28,6 +28,6 @@
     "recommended_action",
     "key_points"
   ],
-  "additionalProperties": false
+  "additionalProperties": true
 }
 
