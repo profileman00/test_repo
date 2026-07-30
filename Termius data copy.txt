@@ -1,0 +1,39 @@
+============== SSH Congo
+10.xx.44.xx
+Congo Edge
+
+
+============== SSH Benin
+10.xx.89.xx
+Benin Edge
+
+
+============== SSH Cameroon
+10.xx.53.xx
+CM Edge
+
+
+============== SSH Ghana
+10.xx.22.xx
+Ghana Edge
+
+
+===========================================================
+BN HDFS 
+hadoop fs -ls /userFeeds/
+
+Cameroon user Me
+sudo su - user;
+
+CO HDFS
+hadoop fs -ls hdfs://codex/STG_Feeds/standalone another version
+
+CM HDFS
+hadoop fs -ls hdfs://claude/Feeds/
+
+Landing Zone
+ll -h /sources/production/ftpin/
+
+
+
+
